@@ -1,0 +1,57 @@
+[Data]
+Name=BubbleTux Personnalisé 20102018
+Thumbnail=/home/guillaume/.config/XfceThemeManager/custom/BubbleTux Personnalisé 20102018.png
+GtkTheme=Adapta-Nokto
+IconTheme=Papirus-Light
+CursorTheme=Xeonyx
+Xfwm4Theme=BubbleTux
+TitleButtonLayout=O|HMC
+TitlePosition=center
+WMFont=Noto Sans Bold 9
+AppFont=Noto Sans 9
+CursorSize=24
+[Monitor-0]
+BackgroundImage=/usr/share/xfce4/backdrops/xubuntu-wallpaper.png
+BackdropStyle=5
+BackdropBright=63
+BackdropSatu=0,000000
+[Monitor-1]
+BackgroundImage=/usr/share/xfce4/backdrops/xubuntu-wallpaper.png
+BackdropStyle=5
+BackdropBright=63
+BackdropSatu=0,000000
+[Monitor-2]
+BackgroundImage=DEADBEEF
+BackdropStyle=-738140224
+BackdropBright=63
+BackdropSatu=0,000000
+[Monitor-3]
+BackgroundImage=DEADBEEF
+BackdropStyle=1930207008
+BackdropBright=63
+BackdropSatu=0,000000
+[Panel-0]
+PanelImage=(null)
+PanelStyle=0
+PanelSize=48
+PanelAlpha=100
+PanelRed=52942
+PanelGreen=52942
+PanelBlue=52942
+[Panel-1]
+PanelImage=(null)
+PanelStyle=0
+PanelSize=48
+PanelAlpha=100
+PanelRed=56540
+PanelGreen=56026
+PanelBlue=54741
+[Panel-2]
+PanelImage=(null)
+PanelStyle=0
+PanelSize=48
+PanelAlpha=100
+PanelRed=56540
+PanelGreen=56026
+PanelBlue=54741
+

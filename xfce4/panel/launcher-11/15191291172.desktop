@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Terminal
+Comment=
+Exec=xfce4-terminal --drop-down
+Icon=/.awn1/b1.svg
+Path=
+Terminal=false
+StartupNotify=false

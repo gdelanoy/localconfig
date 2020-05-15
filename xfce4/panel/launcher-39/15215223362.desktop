@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Winetricks
+Comment=
+Exec=winetricks
+Icon=/.awn1/winetricks.svg
+Path=
+Terminal=false
+StartupNotify=false

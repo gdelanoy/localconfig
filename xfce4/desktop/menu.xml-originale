@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xfdesktop-menu []>
+<xfdesktop-menu>
+<title name="Desktop Menu"/>
+<separator/>
+<menu name="Development">
+    <app name="GDB" cmd="gdb" term="true"/>
+    <app name="GNU Emacs 25 (Terminal)" cmd="emacs25" term="true"/>
+    <app name="Groovy Console" cmd="groovyConsole"/>
+    <app name="Icon Browser" cmd="yad-icon-browser"/>
+    <app name="Meld" cmd="meld"/>
+    <app name="phpMyAdmin" cmd="sensible-browser http://localhost/phpmyadmin/"/>
+    <app name="Tclsh8.6" cmd="tclsh8.6" term="true"/>
+    <app name="TkWish8.6" cmd="x-terminal-emulator -e /usr/bin/wish8.6"/>
+    <app name="VSCodium" cmd="/usr/share/codium/codium --no-sandbox"/>
+</menu>
+<menu name="Editors">
+    <app name="Emacs" cmd="emacs" term="true"/>
+    <app name="Kate" cmd="kate"/>
+    <app name="Midnight Commander editor" cmd="mcedit" term="true"/>
+    <app name="Mousepad" cmd="mousepad"/>
+    <app name="Nano" cmd="nano" term="true"/>
+    <app name="Neovim" cmd="nvim" term="true"/>
+    <app name="Pico" cmd="pico" term="true"/>
+    <app name="Text Editor" cmd="gedit"/>
+    <app name="Vi" cmd="vi" term="true"/>
+    <app name="Vim" cmd="vim" term="true"/>
+    <app name="Xedit" cmd="xedit"/>
+</menu>
+<menu name="Games">
+    <menu name="Amusement">
+        <app name="AA Fire" cmd="aafire -driver slang" term="true"/>
+        <app name="Oclock" cmd="oclock"/>
+        <app name="Oneko" cmd="oneko -fg black -bg white"/>
+        <app name="Screenlets" cmd="screenlets-manager"/>
+        <app name="Xclock (analog)" cmd="xclock -analog"/>
+        <app name="Xclock (digital)" cmd="xclock -digital -update 1"/>
+        <app name="Xeyes" cmd="xeyes"/>
+        <app name="Xlogo" cmd="xlogo"/>
+        <app name="Xpenguins - start" cmd="xpenguins"/>
+        <app name="Xpenguins - stop" cmd="xpenguins-stop"/>
+    </menu>
+    <menu name="Arcade">
+        <app name="Battle Tanks" cmd="btanks"/>
+        <app name="Emilia Pinball" cmd="pinball"/>
+        <app name="M.A.R.S." cmd="marsshooter"/>
+        <app name="Neverball" cmd="neverball"/>
+        <app name="Njam" cmd="njam"/>
+        <app name="nsnake" cmd="nsnake" term="true"/>
+        <app name="Pacman" cmd="pacman"/>
+        <app name="Quake 3 Arena" cmd="quake3"/>
+        <app name="SuperTux 2" cmd="supertux2"/>
+    </menu>
+    <menu name="Board">
+        <app name="Chess" cmd="gnome-chess"/>
+    </menu>
+    <menu name="Card">
+        <app name="AisleRiot Solitaire" cmd="sol"/>
+    </menu>
+    <menu name="Puzzle">
+        <app name="Mines" cmd="gnome-mines"/>
+        <app name="Quadrapassel" cmd="quadrapassel"/>
+        <app name="SGT Puzzles Collection" cmd="sgt-launcher"/>
+        <app name="Sudoku" cmd="gnome-sudoku"/>
+    </menu>
+    <menu name="Strategy">
+        <app name="Hedgewars" cmd="hedgewars"/>
+    </menu>
+    <app name="AstroMenace" cmd="AstroMenace"/>
+    <app name="Doom 2: Master Levels" cmd="doom2-masterlevels"/>
+    <app name="Never Split the Party" cmd="steam steam://rungameid/711810"/>
+    <app name="Ninvaders" cmd="ninvaders" term="true"/>
+    <app name="nInvaders" cmd="nInvaders" term="true"/>
+</menu>
+<menu name="Graphics">
+    <app name="BB" cmd="bb"/>
+    <app name="Blender" cmd="blender"/>
+    <app name="Darktable" cmd="darktable"/>
+    <app name="Dia" cmd="dia"/>
+    <app name="digiKam" cmd="digikam"/>
+    <app name="E-book Viewer" cmd="ebook-viewer"/>
+    <app name="GNU Image Manipulation Program" cmd="gimp-2.8"/>
+    <app name="Inkscape" cmd="inkscape"/>
+    <app name="Krita KDE Bitmap Graphics Editor" cmd="krita"/>
+    <app name="LRF Viewer" cmd="lrfviewer"/>
+    <app name="Pinta" cmd="pinta"/>
+    <app name="Ristretto Image Viewer" cmd="ristretto"/>
+    <app name="Shotwell" cmd="shotwell"/>
+    <app name="Simple Scan" cmd="simple-scan"/>
+    <app name="Wordview" cmd="wordview"/>
+    <app name="xcam" cmd="xcam"/>
+    <app name="Xditview" cmd="xditview"/>
+    <app name="XSane Image scanning program" cmd="xsane"/>
+    <app name="xscanimage" cmd="xscanimage"/>
+</menu>
+<menu name="Multimedia">
+    <app name="ALSA mixer" cmd="alsamixer" term="true"/>
+    <app name="Ardour5" cmd="ardour5"/>
+    <app name="Audacity" cmd="audacity"/>
+    <app name="Brasero" cmd="brasero"/>
+    <app name="Cheese" cmd="cheese"/>
+    <app name="Clementine" cmd="clementine"/>
+    <app name="GNOME Twitch" cmd="gnome-twitch"/>
+    <app name="Gradio" cmd="gradio"/>
+    <app name="HandBrake" cmd="ghb"/>
+    <app name="Kazam" cmd="kazam"/>
+    <app name="Kdenlive" cmd="kdenlive"/>
+    <app name="mpv Media Player" cmd="mpv"/>
+    <app name="OpenShot Video Editor" cmd="openshot-qt"/>
+    <app name="Parole Media Player" cmd="parole"/>
+    <app name="Pitivi" cmd="pitivi"/>
+    <app name="PulseAudio Volume Control" cmd="pavucontrol"/>
+    <app name="PulseEffects" cmd="pulseeffects"/>
+    <app name="QjackCtl" cmd="qjackctl"/>
+    <app name="SMTube" cmd="smtube"/>
+    <app name="Sound Juicer" cmd="sound-juicer"/>
+    <app name="Strawberry" cmd="strawberry"/>
+    <app name="streamtuner2" cmd="streamtuner2"/>
+    <app name="VLC media player" cmd="vlc"/>
+    <app name="vokoscreen" cmd="vokoscreen"/>
+    <app name="Xfburn" cmd="xfburn"/>
+    <app name="Xjadeo" cmd="xjadeo"/>
+</menu>
+<menu name="Network">
+    <app name="Chromium Web Browser" cmd="chromium-browser"/>
+    <app name="Corebird" cmd="corebird"/>
+    <app name="Deluge" cmd="deluge-gtk"/>
+    <app name="Dropbox" cmd="dropbox start -i"/>
+    <app name="Ekiga Softphone" cmd="ekiga"/>
+    <app name="FileZilla" cmd="filezilla"/>
+    <app name="FireFox" cmd="firefox"/>
+    <app name="FTP" cmd="ftp" term="true"/>
+    <app name="KDE Connect Indicator" cmd="kdeconnect-indicator"/>
+    <app name="Liferea" cmd="liferea"/>
+    <app name="Mail" cmd="mail" term="true"/>
+    <app name="Mail Reader" cmd="exo-open --launch MailReader"/>
+    <app name="Mumble" cmd="mumble"/>
+    <app name="Pidgin Internet Messenger" cmd="pidgin"/>
+    <app name="QuiteRSS" cmd="quiterss"/>
+    <app name="Ring" cmd="gnome-ring"/>
+    <app name="Riot" cmd="riot-web"/>
+    <app name="Steam" cmd="steam"/>
+    <app name="Telegram Desktop" cmd="telegram-desktop"/>
+    <app name="Telnet" cmd="telnet" term="true"/>
+    <app name="Thunderbird" cmd="thunderbird"/>
+    <app name="Transmission" cmd="transmission-gtk"/>
+    <app name="W3m" cmd="w3m" term="true"/>
+    <app name="w3m" cmd="w3m /usr/share/doc/w3m/MANUAL.html" term="true"/>
+    <app name="Web Browser" cmd="exo-open --launch WebBrowser"/>
+    <app name="Wireshark" cmd="wireshark"/>
+    <app name="xtightvncviewer" cmd="xtightvncviewer"/>
+</menu>
+<menu name="Office">
+    <app name="Atril Document Viewer" cmd="atril"/>
+    <app name="BasKet Note Pads" cmd="basket"/>
+    <app name="Calendar" cmd="gnome-calendar"/>
+    <app name="calibre" cmd="calibre"/>
+    <app name="Dictionary" cmd="xfce4-dict"/>
+    <app name="Document Viewer" cmd="evince"/>
+    <app name="E-book Editor" cmd="ebook-edit"/>
+    <app name="Evolution" cmd="evolution"/>
+    <app name="FocusWriter" cmd="focuswriter"/>
+    <app name="Freeplane" cmd="freeplane"/>
+    <app name="gLabels" cmd="glabels-3"/>
+    <app name="LibreOffice Impress" cmd="libreoffice"/>
+    <app name="Manuskript" cmd="manuskript"/>
+    <app name="Okular" cmd="okular"/>
+    <app name="Orage Calendar" cmd="orage"/>
+    <app name="Orage Globaltime" cmd="globaltime"/>
+    <app name="oStorybook" cmd="ostorybook"/>
+    <app name="Xbiff" cmd="xbiff"/>
+    <app name="xCHM" cmd="xchm"/>
+</menu>
+<menu name="Other">
+    <app name="Bluegriffon" cmd="bluegriffon"/>
+    <app name="Telnet" cmd="telnet.netkit" term="true"/>
+</menu>
+<menu name="Science">
+    <app name="2048-Qt" cmd="2048-qt"/>
+    <app name="Stellarium" cmd="stellarium"/>
+</menu>
+<menu name="Shells">
+    <app name="Bash" cmd="bash --login" term="true"/>
+    <app name="Dash" cmd="dash -i" term="true"/>
+    <app name="Files" cmd="nautilus"/>
+    <app name="fish" cmd="fish" term="true"/>
+    <app name="GIT" cmd="git" term="true"/>
+    <app name="Guake Terminal" cmd="guake"/>
+    <app name="Krusader" cmd="krusader"/>
+    <app name="MC" cmd="mc" term="true"/>
+    <app name="ranger" cmd="ranger" term="true"/>
+    <app name="Sh" cmd="sh --login" term="true"/>
+    <app name="Terminator" cmd="terminator"/>
+    <app name="Thunar File Manager" cmd="thunar"/>
+    <app name="UXTerm" cmd="uxterm"/>
+    <app name="VirtualBox" cmd="VirtualBox"/>
+    <app name="VirtualBox" cmd="virtualbox"/>
+    <app name="Xfce Terminal" cmd="xfce4-terminal"/>
+    <app name="Xterm" cmd="xterm"/>
+    <app name="Zsh" cmd="zsh" term="true"/>
+</menu>
+<menu name="System">
+    <menu name="Settings">
+        <menu name="GNOME">
+            <app name="About Me" cmd="mugshot"/>
+            <app name="Bluetooth Manager" cmd="blueman-manager"/>
+            <app name="Disks" cmd="gnome-disks"/>
+            <app name="Firewall Configuration" cmd="gufw"/>
+            <app name="Guake Preferences" cmd="guake -p"/>
+            <app name="Language Support" cmd="gnome-language-selector"/>
+            <app name="LightDM GTK+ Greeter settings" cmd="lightdm-gtk-greeter-settings-pkexec"/>
+            <app name="Menu Editor" cmd="menulibre"/>
+            <app name="Network" cmd="network-admin"/>
+            <app name="Network Connections" cmd="nm-connection-editor"/>
+            <app name="Printers" cmd="system-config-printer"/>
+            <app name="Software &amp; Updates" cmd="software-properties-gtk"/>
+            <app name="Time and Date" cmd="time-admin"/>
+            <app name="Tweaks" cmd="gnome-tweaks"/>
+            <app name="Users and Groups" cmd="users-admin"/>
+        </menu>
+        <menu name="Xfce">
+            <app name="Bluetooth Adapters" cmd="blueman-adapters"/>
+            <app name="Orage preferences" cmd="orage -p"/>
+            <app name="Screensaver" cmd="xscreensaver-demo"/>
+            <app name="Settings Manager" cmd="xfce4-settings-manager"/>
+            <app name="Xfce Panel Switch" cmd="xfpanel-switch"/>
+            <app name="Xfce-Theme-Manager" cmd="xfce-theme-manager"/>
+        </menu>
+        <app name="Abstractile" cmd="/usr/lib/xscreensaver/abstractile -root"/>
+        <app name="Accessibility" cmd="xfce4-accessibility-settings"/>
+        <app name="Anemone" cmd="/usr/lib/xscreensaver/anemone -root"/>
+        <app name="Anemotaxis" cmd="/usr/lib/xscreensaver/anemotaxis -root"/>
+        <app name="AntInspect" cmd="/usr/lib/xscreensaver/antinspect -root"/>
+        <app name="AntMaze" cmd="/usr/lib/xscreensaver/antmaze -root"/>
+        <app name="AntSpotlight" cmd="/usr/lib/xscreensaver/antspotlight -root"/>
+        <app name="Apollonian" cmd="/usr/lib/xscreensaver/apollonian -root"/>
+        <app name="Appearance" cmd="xfce4-appearance-settings"/>
+        <app name="Apple2" cmd="/usr/lib/xscreensaver/apple2 -root"/>
+        <app name="ARandR" cmd="arandr"/>
+        <app name="Atlantis" cmd="/usr/lib/xscreensaver/atlantis -root"/>
+        <app name="Attraction" cmd="/usr/lib/xscreensaver/attraction -root"/>
+        <app name="Atunnel" cmd="/usr/lib/xscreensaver/atunnel -root"/>
+        <app name="Barcode" cmd="/usr/lib/xscreensaver/barcode -root"/>
+        <app name="BinaryRing" cmd="/usr/lib/xscreensaver/binaryring -root"/>
+        <app name="Blaster" cmd="/usr/lib/xscreensaver/blaster -root"/>
+        <app name="BlinkBox" cmd="/usr/lib/xscreensaver/blinkbox -root"/>
+        <app name="BlitSpin" cmd="/usr/lib/xscreensaver/blitspin -root"/>
+        <app name="BlockTube" cmd="/usr/lib/xscreensaver/blocktube -root"/>
+        <app name="Boing" cmd="/usr/lib/xscreensaver/boing -root"/>
+        <app name="Boot Repair" cmd="boot-repair-pkexec"/>
+        <app name="Bouboule" cmd="/usr/lib/xscreensaver/bouboule -root"/>
+        <app name="BouncingCow" cmd="/usr/lib/xscreensaver/bouncingcow -root"/>
+        <app name="Boxed" cmd="/usr/lib/xscreensaver/boxed -root"/>
+        <app name="BoxFit" cmd="/usr/lib/xscreensaver/boxfit -root"/>
+        <app name="Braid" cmd="/usr/lib/xscreensaver/braid -root"/>
+        <app name="Bubble3D" cmd="/usr/lib/xscreensaver/bubble3d -root"/>
+        <app name="Bumps" cmd="/usr/lib/xscreensaver/bumps -root"/>
+        <app name="Cage" cmd="/usr/lib/xscreensaver/cage -root"/>
+        <app name="Carousel" cmd="/usr/lib/xscreensaver/carousel -root"/>
+        <app name="CCurve" cmd="/usr/lib/xscreensaver/ccurve -root"/>
+        <app name="Celtic" cmd="/usr/lib/xscreensaver/celtic -root"/>
+        <app name="Circuit" cmd="/usr/lib/xscreensaver/circuit -root"/>
+        <app name="Cityflow" cmd="/usr/lib/xscreensaver/cityflow -root"/>
+        <app name="CloudLife" cmd="/usr/lib/xscreensaver/cloudlife -root"/>
+        <app name="CompanionCube" cmd="/usr/lib/xscreensaver/companioncube -root"/>
+        <app name="Compass" cmd="/usr/lib/xscreensaver/compass -root"/>
+        <app name="Coral" cmd="/usr/lib/xscreensaver/coral -root"/>
+        <app name="Crackberg" cmd="/usr/lib/xscreensaver/crackberg -root"/>
+        <app name="Crystal" cmd="/usr/lib/xscreensaver/crystal -root"/>
+        <app name="Cube21" cmd="/usr/lib/xscreensaver/cube21 -root"/>
+        <app name="Cubenetic" cmd="/usr/lib/xscreensaver/cubenetic -root"/>
+        <app name="CubeStack" cmd="/usr/lib/xscreensaver/cubestack -root"/>
+        <app name="CubeStorm" cmd="/usr/lib/xscreensaver/cubestorm -root"/>
+        <app name="CubeTwist" cmd="/usr/lib/xscreensaver/cubetwist -root"/>
+        <app name="CubicGrid" cmd="/usr/lib/xscreensaver/cubicgrid -root"/>
+        <app name="CWaves" cmd="/usr/lib/xscreensaver/cwaves -root"/>
+        <app name="Cynosure" cmd="/usr/lib/xscreensaver/cynosure -root"/>
+        <app name="DangerBall" cmd="/usr/lib/xscreensaver/dangerball -root"/>
+        <app name="DecayScreen" cmd="/usr/lib/xscreensaver/decayscreen -root"/>
+        <app name="Deco" cmd="/usr/lib/xscreensaver/deco -root"/>
+        <app name="Deluxe" cmd="/usr/lib/xscreensaver/deluxe -root"/>
+        <app name="Demon" cmd="/usr/lib/xscreensaver/demon -root"/>
+        <app name="Desktop" cmd="xfdesktop-settings"/>
+        <app name="Discoball" cmd="/usr/lib/xscreensaver/discoball -root"/>
+        <app name="Discrete" cmd="/usr/lib/xscreensaver/discrete -root"/>
+        <app name="Display" cmd="xfce4-display-settings"/>
+        <app name="Distort" cmd="/usr/lib/xscreensaver/distort -root"/>
+        <app name="Drift" cmd="/usr/lib/xscreensaver/drift -root"/>
+        <app name="DymaxionMap" cmd="/usr/lib/xscreensaver/dymaxionmap -root"/>
+        <app name="Endgame" cmd="/usr/lib/xscreensaver/endgame -root"/>
+        <app name="EnergyStream" cmd="/usr/lib/xscreensaver/energystream -root"/>
+        <app name="Engine" cmd="/usr/lib/xscreensaver/engine -root"/>
+        <app name="Epicycle" cmd="/usr/lib/xscreensaver/epicycle -root"/>
+        <app name="Eruption" cmd="/usr/lib/xscreensaver/eruption -root"/>
+        <app name="Euler2D" cmd="/usr/lib/xscreensaver/euler2d -root"/>
+        <app name="Extrusion" cmd="/usr/lib/xscreensaver/extrusion -root"/>
+        <app name="FadePlot" cmd="/usr/lib/xscreensaver/fadeplot -root"/>
+        <app name="Fiberlamp" cmd="/usr/lib/xscreensaver/fiberlamp -root"/>
+        <app name="File Manager" cmd="thunar-settings"/>
+        <app name="Fireworkx" cmd="/usr/lib/xscreensaver/fireworkx -root"/>
+        <app name="Flame" cmd="/usr/lib/xscreensaver/flame -root"/>
+        <app name="FlipFlop" cmd="/usr/lib/xscreensaver/flipflop -root"/>
+        <app name="FlipScreen3D" cmd="/usr/lib/xscreensaver/flipscreen3d -root"/>
+        <app name="FlipText" cmd="/usr/lib/xscreensaver/fliptext -root"/>
+        <app name="Flow" cmd="/usr/lib/xscreensaver/flow -root"/>
+        <app name="FluidBalls" cmd="/usr/lib/xscreensaver/fluidballs -root"/>
+        <app name="Flurry" cmd="/usr/lib/xscreensaver/flurry -root"/>
+        <app name="FlyingToasters" cmd="/usr/lib/xscreensaver/flyingtoasters -root"/>
+        <app name="FontGlide" cmd="/usr/lib/xscreensaver/fontglide -root"/>
+        <app name="FuzzyFlakes" cmd="/usr/lib/xscreensaver/fuzzyflakes -root"/>
+        <app name="Galaxy" cmd="/usr/lib/xscreensaver/galaxy -root"/>
+        <app name="Gears" cmd="/usr/lib/xscreensaver/gears -root"/>
+        <app name="Geodesic" cmd="/usr/lib/xscreensaver/geodesic -root"/>
+        <app name="GeodesicGears" cmd="/usr/lib/xscreensaver/geodesicgears -root"/>
+        <app name="GFlux" cmd="/usr/lib/xscreensaver/gflux -root"/>
+        <app name="GLBlur" cmd="/usr/lib/xscreensaver/glblur -root"/>
+        <app name="GLCells" cmd="/usr/lib/xscreensaver/glcells -root"/>
+        <app name="Gleidescope" cmd="/usr/lib/xscreensaver/gleidescope -root"/>
+        <app name="GLHanoi" cmd="/usr/lib/xscreensaver/glhanoi -root"/>
+        <app name="GLKnots" cmd="/usr/lib/xscreensaver/glknots -root"/>
+        <app name="GLMatrix" cmd="/usr/lib/xscreensaver/glmatrix -root"/>
+        <app name="GLPlanet" cmd="/usr/lib/xscreensaver/glplanet -root"/>
+        <app name="GLSchool" cmd="/usr/lib/xscreensaver/glschool -root"/>
+        <app name="GLSlideshow" cmd="/usr/lib/xscreensaver/glslideshow -root"/>
+        <app name="GLSnake" cmd="/usr/lib/xscreensaver/glsnake -root"/>
+        <app name="GLText" cmd="/usr/lib/xscreensaver/gltext -root"/>
+        <app name="Gluqlo: Fliqlo for Linux" cmd="/usr/lib/xscreensaver/gluqlo -root"/>
+        <app name="Goop" cmd="/usr/lib/xscreensaver/goop -root"/>
+        <app name="Grav" cmd="/usr/lib/xscreensaver/grav -root"/>
+        <app name="Greynetic" cmd="/usr/lib/xscreensaver/greynetic -root"/>
+        <app name="Grub Customizer" cmd="grub-customizer"/>
+        <app name="Halftone" cmd="/usr/lib/xscreensaver/halftone -root"/>
+        <app name="Halo" cmd="/usr/lib/xscreensaver/halo -root"/>
+        <app name="Helix" cmd="/usr/lib/xscreensaver/helix -root"/>
+        <app name="Hexadrop" cmd="/usr/lib/xscreensaver/hexadrop -root"/>
+        <app name="Hexstrut" cmd="/usr/lib/xscreensaver/hexstrut -root"/>
+        <app name="Hilbert" cmd="/usr/lib/xscreensaver/hilbert -root"/>
+        <app name="Hopalong" cmd="/usr/lib/xscreensaver/hopalong -root"/>
+        <app name="Hydrostat" cmd="/usr/lib/xscreensaver/hydrostat -root"/>
+        <app name="Hypertorus" cmd="/usr/lib/xscreensaver/hypertorus -root"/>
+        <app name="Hypnowheel" cmd="/usr/lib/xscreensaver/hypnowheel -root"/>
+        <app name="IBus Preferences" cmd="ibus-setup"/>
+        <app name="IFS" cmd="/usr/lib/xscreensaver/ifs -root"/>
+        <app name="IMSMap" cmd="/usr/lib/xscreensaver/imsmap -root"/>
+        <app name="Input Method" cmd="im-config"/>
+        <app name="Interaggregate" cmd="/usr/lib/xscreensaver/interaggregate -root"/>
+        <app name="Interference" cmd="/usr/lib/xscreensaver/interference -root"/>
+        <app name="Intermomentary" cmd="/usr/lib/xscreensaver/intermomentary -root"/>
+        <app name="JigglyPuff" cmd="/usr/lib/xscreensaver/jigglypuff -root"/>
+        <app name="Jigsaw" cmd="/usr/lib/xscreensaver/jigsaw -root"/>
+        <app name="Juggler3D" cmd="/usr/lib/xscreensaver/juggler3d -root"/>
+        <app name="Julia" cmd="/usr/lib/xscreensaver/julia -root"/>
+        <app name="Kaleidescope" cmd="/usr/lib/xscreensaver/kaleidescope -root"/>
+        <app name="Kaleidocycle" cmd="/usr/lib/xscreensaver/kaleidocycle -root"/>
+        <app name="KDE Connect Settings" cmd="kcmshell5 kcm_kdeconnect"/>
+        <app name="Keyboard" cmd="xfce4-keyboard-settings"/>
+        <app name="Klein" cmd="/usr/lib/xscreensaver/klein -root"/>
+        <app name="Kumppa" cmd="/usr/lib/xscreensaver/kumppa -root"/>
+        <app name="Lament" cmd="/usr/lib/xscreensaver/lament -root"/>
+        <app name="Lavalite" cmd="/usr/lib/xscreensaver/lavalite -root"/>
+        <app name="LCDscrub" cmd="/usr/lib/xscreensaver/lcdscrub -root"/>
+        <app name="Lockward" cmd="/usr/lib/xscreensaver/lockward -root"/>
+        <app name="Loop" cmd="/usr/lib/xscreensaver/loop -root"/>
+        <app name="m6502" cmd="/usr/lib/xscreensaver/m6502 -root"/>
+        <app name="Maze" cmd="/usr/lib/xscreensaver/maze -root"/>
+        <app name="MemScroller" cmd="/usr/lib/xscreensaver/memscroller -root"/>
+        <app name="Menger" cmd="/usr/lib/xscreensaver/menger -root"/>
+        <app name="MetaBalls" cmd="/usr/lib/xscreensaver/metaballs -root"/>
+        <app name="MIME Type Editor" cmd="xfce4-mime-settings"/>
+        <app name="MirrorBlob" cmd="/usr/lib/xscreensaver/mirrorblob -root"/>
+        <app name="Moebius" cmd="/usr/lib/xscreensaver/moebius -root"/>
+        <app name="MoebiusGears" cmd="/usr/lib/xscreensaver/moebiusgears -root"/>
+        <app name="Moire" cmd="/usr/lib/xscreensaver/moire -root"/>
+        <app name="Moire2" cmd="/usr/lib/xscreensaver/moire2 -root"/>
+        <app name="Molecule" cmd="/usr/lib/xscreensaver/molecule -root"/>
+        <app name="Morph3D" cmd="/usr/lib/xscreensaver/morph3d -root"/>
+        <app name="Mountain" cmd="/usr/lib/xscreensaver/mountain -root"/>
+        <app name="Mouse and Touchpad" cmd="xfce4-mouse-settings"/>
+        <app name="Munch" cmd="/usr/lib/xscreensaver/munch -root"/>
+        <app name="NerveRot" cmd="/usr/lib/xscreensaver/nerverot -root"/>
+        <app name="Noof" cmd="/usr/lib/xscreensaver/noof -root"/>
+        <app name="NoseGuy" cmd="/usr/lib/xscreensaver/noseguy -root"/>
+        <app name="Notifications" cmd="xfce4-notifyd-config"/>
+        <app name="Onboard Settings" cmd="onboard-settings"/>
+        <app name="OS-Uninstaller" cmd="os-uninstaller-pkexec"/>
+        <app name="Pacman" cmd="/usr/lib/xscreensaver/pacman -root"/>
+        <app name="Panel" cmd="xfce4-panel --preferences"/>
+        <app name="Pedal" cmd="/usr/lib/xscreensaver/pedal -root"/>
+        <app name="Penetrate" cmd="/usr/lib/xscreensaver/penetrate -root"/>
+        <app name="Penrose" cmd="/usr/lib/xscreensaver/penrose -root"/>
+        <app name="Petri" cmd="/usr/lib/xscreensaver/petri -root"/>
+        <app name="Phosphor" cmd="/usr/lib/xscreensaver/phosphor -root"/>
+        <app name="Photopile" cmd="/usr/lib/xscreensaver/photopile -root"/>
+        <app name="Piecewise" cmd="/usr/lib/xscreensaver/piecewise -root"/>
+        <app name="Pinion" cmd="/usr/lib/xscreensaver/pinion -root"/>
+        <app name="Pipes" cmd="/usr/lib/xscreensaver/pipes -root"/>
+        <app name="Polyhedra" cmd="/usr/lib/xscreensaver/polyhedra -root"/>
+        <app name="Polyominoes" cmd="/usr/lib/xscreensaver/polyominoes -root"/>
+        <app name="Polytopes" cmd="/usr/lib/xscreensaver/polytopes -root"/>
+        <app name="Pong" cmd="/usr/lib/xscreensaver/pong -root"/>
+        <app name="Power Manager" cmd="xfce4-power-manager-settings"/>
+        <app name="Preferred Applications" cmd="exo-preferred-applications"/>
+        <app name="ProjectivePlane" cmd="/usr/lib/xscreensaver/projectiveplane -root"/>
+        <app name="Providence" cmd="/usr/lib/xscreensaver/providence -root"/>
+        <app name="Pulsar" cmd="/usr/lib/xscreensaver/pulsar -root"/>
+        <app name="Pyro" cmd="/usr/lib/xscreensaver/pyro -root"/>
+        <app name="Qix" cmd="/usr/lib/xscreensaver/qix -root"/>
+        <app name="QuasiCrystal" cmd="/usr/lib/xscreensaver/quasicrystal -root"/>
+        <app name="Queens" cmd="/usr/lib/xscreensaver/queens -root"/>
+        <app name="RaverHoop" cmd="/usr/lib/xscreensaver/raverhoop -root"/>
+        <app name="RDbomb" cmd="/usr/lib/xscreensaver/rd-bomb -root"/>
+        <app name="Removable Drives and Media" cmd="thunar-volman-settings"/>
+        <app name="Ripples" cmd="/usr/lib/xscreensaver/ripples -root"/>
+        <app name="Rocks" cmd="/usr/lib/xscreensaver/rocks -root"/>
+        <app name="RomanBoy" cmd="/usr/lib/xscreensaver/romanboy -root"/>
+        <app name="Rorschach" cmd="/usr/lib/xscreensaver/rorschach -root"/>
+        <app name="RotZoomer" cmd="/usr/lib/xscreensaver/rotzoomer -root"/>
+        <app name="Rubik" cmd="/usr/lib/xscreensaver/rubik -root"/>
+        <app name="RubikBlocks" cmd="/usr/lib/xscreensaver/rubikblocks -root"/>
+        <app name="SBalls" cmd="/usr/lib/xscreensaver/sballs -root"/>
+        <app name="Session and Startup" cmd="xfce4-session-settings"/>
+        <app name="Settings Editor" cmd="xfce4-settings-editor"/>
+        <app name="ShadeBobs" cmd="/usr/lib/xscreensaver/shadebobs -root"/>
+        <app name="Sierpinski" cmd="/usr/lib/xscreensaver/sierpinski -root"/>
+        <app name="Sierpinski3D" cmd="/usr/lib/xscreensaver/sierpinski3d -root"/>
+        <app name="SkyTentacles" cmd="/usr/lib/xscreensaver/skytentacles -root"/>
+        <app name="SlideScreen" cmd="/usr/lib/xscreensaver/slidescreen -root"/>
+        <app name="Slip" cmd="/usr/lib/xscreensaver/slip -root"/>
+        <app name="Software Updater" cmd="update-manager"/>
+        <app name="Sonar" cmd="/usr/lib/xscreensaver/sonar -root"/>
+        <app name="SpeedMine" cmd="/usr/lib/xscreensaver/speedmine -root"/>
+        <app name="Spheremonics" cmd="/usr/lib/xscreensaver/spheremonics -root"/>
+        <app name="SplitFlap" cmd="/usr/lib/xscreensaver/splitflap -root"/>
+        <app name="Splodesic" cmd="/usr/lib/xscreensaver/splodesic -root"/>
+        <app name="Spotlight" cmd="/usr/lib/xscreensaver/spotlight -root"/>
+        <app name="Sproingies" cmd="/usr/lib/xscreensaver/sproingies -root"/>
+        <app name="Squiral" cmd="/usr/lib/xscreensaver/squiral -root"/>
+        <app name="Stairs" cmd="/usr/lib/xscreensaver/stairs -root"/>
+        <app name="Starfish" cmd="/usr/lib/xscreensaver/starfish -root"/>
+        <app name="StarWars" cmd="/usr/lib/xscreensaver/starwars -root"/>
+        <app name="StonerView" cmd="/usr/lib/xscreensaver/stonerview -root"/>
+        <app name="Strange" cmd="/usr/lib/xscreensaver/strange -root"/>
+        <app name="Substrate" cmd="/usr/lib/xscreensaver/substrate -root"/>
+        <app name="Superquadrics" cmd="/usr/lib/xscreensaver/superquadrics -root"/>
+        <app name="Surfaces" cmd="/usr/lib/xscreensaver/surfaces -root"/>
+        <app name="Swirl" cmd="/usr/lib/xscreensaver/swirl -root"/>
+        <app name="Synaptic Package Manager" cmd="synaptic-pkexec"/>
+        <app name="Tangram" cmd="/usr/lib/xscreensaver/tangram -root"/>
+        <app name="Tessellimage" cmd="/usr/lib/xscreensaver/tessellimage -root"/>
+        <app name="TeXdoctk" cmd="texdoctk"/>
+        <app name="Thornbird" cmd="/usr/lib/xscreensaver/thornbird -root"/>
+        <app name="TimeTunnel" cmd="/usr/lib/xscreensaver/timetunnel -root"/>
+        <app name="TopBlock" cmd="/usr/lib/xscreensaver/topblock -root"/>
+        <app name="Triangle" cmd="/usr/lib/xscreensaver/triangle -root"/>
+        <app name="TronBit" cmd="/usr/lib/xscreensaver/tronbit -root"/>
+        <app name="Truchet" cmd="/usr/lib/xscreensaver/truchet -root"/>
+        <app name="Twang" cmd="/usr/lib/xscreensaver/twang -root"/>
+        <app name="Unicrud" cmd="/usr/lib/xscreensaver/unicrud -root"/>
+        <app name="UnknownPleasures" cmd="/usr/lib/xscreensaver/unknownpleasures -root"/>
+        <app name="Vermiculate" cmd="/usr/lib/xscreensaver/vermiculate -root"/>
+        <app name="VidWhacker" cmd="/usr/lib/xscreensaver/vidwhacker -root"/>
+        <app name="Voronoi" cmd="/usr/lib/xscreensaver/voronoi -root"/>
+        <app name="Wander" cmd="/usr/lib/xscreensaver/wander -root"/>
+        <app name="WhirlWindWarp" cmd="/usr/lib/xscreensaver/whirlwindwarp -root"/>
+        <app name="Window Manager" cmd="xfwm4-settings"/>
+        <app name="Window Manager Tweaks" cmd="xfwm4-tweaks-settings"/>
+        <app name="WindupRobot" cmd="/usr/lib/xscreensaver/winduprobot -root"/>
+        <app name="Workspaces" cmd="xfwm4-workspace-settings"/>
+        <app name="Wormhole" cmd="/usr/lib/xscreensaver/wormhole -root"/>
+        <app name="XAnalogTV" cmd="/usr/lib/xscreensaver/xanalogtv -root"/>
+        <app name="Xfce Terminal" cmd="xfce4-terminal --preferences"/>
+        <app name="Xfdashboard settings" cmd="xfdashboard-settings"/>
+        <app name="XFlame" cmd="/usr/lib/xscreensaver/xflame -root"/>
+        <app name="Xfontsel" cmd="xfontsel"/>
+        <app name="XJack" cmd="/usr/lib/xscreensaver/xjack -root"/>
+        <app name="xkeycaps" cmd="xkeycaps"/>
+        <app name="XLyap" cmd="/usr/lib/xscreensaver/xlyap -root"/>
+        <app name="XMatrix" cmd="/usr/lib/xscreensaver/xmatrix -root"/>
+        <app name="XRaySwarm" cmd="/usr/lib/xscreensaver/xrayswarm -root"/>
+        <app name="XSpirograph" cmd="/usr/lib/xscreensaver/xspirograph -root"/>
+        <app name="Xvidtune" cmd="xvidtune"/>
+        <app name="Zoom" cmd="/usr/lib/xscreensaver/zoom -root"/>
+    </menu>
+    <app name="Aptitude Package Manager (text)" cmd="aptitude-curses" term="true"/>
+    <app name="BleachBit" cmd="bleachbit"/>
+    <app name="BleachBit (as root)" cmd="pkexec bleachbit"/>
+    <app name="Bulk Rename" cmd="/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename"/>
+    <app name="Cairo-Dock" cmd="cairo-dock"/>
+    <app name="Cairo-Dock (Fallback Mode)" cmd="cairo-dock -A"/>
+    <app name="Editres" cmd="editres"/>
+    <app name="FSlint Janitor" cmd="fslint-gui"/>
+    <app name="GDebi Package Installer" cmd="gksudo gdebi-gtk"/>
+    <app name="Gigolo" cmd="gigolo"/>
+    <app name="GKrellM System Monitor" cmd="gkrellm"/>
+    <app name="GNOME System Monitor" cmd="gnome-system-monitor"/>
+    <app name="GParted" cmd="gparted"/>
+    <app name="Htop" cmd="htop" term="true"/>
+    <app name="KeePassXC" cmd="keepassxc"/>
+    <app name="Log Out" cmd="xfce4-session-logout"/>
+    <app name="Power Statistics" cmd="gnome-power-statistics"/>
+    <app name="Psensor" cmd="psensor"/>
+    <app name="Pstree" cmd="pstree.x11" term="true"/>
+    <app name="Software" cmd="gnome-software"/>
+    <app name="Synaptic Package Manager" cmd="x-terminal-emulator -e synaptic-pkexec"/>
+    <app name="System Profiler and Benchmark" cmd="hardinfo"/>
+    <app name="Task Manager" cmd="xfce4-taskmanager"/>
+    <app name="Timeshift" cmd="timeshift-launcher"/>
+    <app name="Top" cmd="top" term="true"/>
+    <app name="USB Image Writer" cmd="mintstick -m iso"/>
+    <app name="Xclipboard" cmd="xclipboard"/>
+    <app name="Xev" cmd="x-terminal-emulator -e xev"/>
+    <app name="Xfdashboard" cmd="xfdashboard"/>
+    <app name="Xkill" cmd="xkill"/>
+    <app name="Xload" cmd="xload"/>
+    <app name="Xrefresh" cmd="xrefresh"/>
+    <app name="Y PPA Manager" cmd="y-pkexec"/>
+</menu>
+<menu name="Utilities">
+    <app name="About Xfce" cmd="xfce4-about"/>
+    <app name="Activate ScreenSaver (Next)" cmd="xscreensaver-command -next"/>
+    <app name="Activate ScreenSaver (Previous)" cmd="xscreensaver-command -prev"/>
+    <app name="Activate ScreenSaver (Random)" cmd="xscreensaver-command -activate"/>
+    <app name="Alarm Clock" cmd="alarm-clock-applet"/>
+    <app name="Application Finder" cmd="xfce4-appfinder"/>
+    <app name="Archive Manager" cmd="file-roller"/>
+    <app name="AutoKey" cmd="autokey-gtk -c"/>
+    <app name="Backups" cmd="deja-dup"/>
+    <app name="Bc" cmd="bc" term="true"/>
+    <app name="Caffeine" cmd="caffeine"/>
+    <app name="Caffeine Indicator" cmd="caffeine-indicator"/>
+    <app name="Catfish File Search" cmd="catfish"/>
+    <app name="Character Map" cmd="gucharmap"/>
+    <app name="CherryTree" cmd="cherrytree"/>
+    <app name="Console Matrix (Text)" cmd="cmatrix" term="true"/>
+    <app name="Console Matrix (Virtual Console)" cmd="cmatrix -l" term="true"/>
+    <app name="Console Matrix (X11)" cmd="cmatrix -x"/>
+    <app name="Demo Screen Hacks" cmd="xscreensaver-command -demo"/>
+    <app name="Disable XScreenSaver" cmd="xscreensaver-command -exit"/>
+    <app name="Enable XScreenSaver" cmd="xscreensaver"/>
+    <app name="Engrampa Archive Manager" cmd="engrampa"/>
+    <app name="File Manager" cmd="exo-open --launch FileManager"/>
+    <app name="Fonts" cmd="gnome-font-viewer"/>
+    <app name="Gnote" cmd="gnote"/>
+    <app name="Help" cmd="yelp"/>
+    <app name="Info" cmd="info" term="true"/>
+    <app name="KeePassX" cmd="keepassx"/>
+    <app name="Lock Screen (XScreenSaver)" cmd="xscreensaver-command -lock"/>
+    <app name="MATE Calculator" cmd="mate-calc"/>
+    <app name="Notes" cmd="xfce4-notes"/>
+    <app name="Onboard" cmd="onboard"/>
+    <app name="Plank" cmd="plank"/>
+    <app name="Reinitialize XScreenSaver" cmd="xscreensaver-command -restart"/>
+    <app name="Run Program..." cmd="xfce4-appfinder --collapsed"/>
+    <app name="Screenlets" cmd="screenlets-manager > /dev/null"/>
+    <app name="ScreenSaver Preferences" cmd="xscreensaver-command -prefs"/>
+    <app name="Screenshot" cmd="xfce4-screenshooter"/>
+    <app name="Slingscold" cmd="slingscold"/>
+    <app name="Stacer" cmd="stacer"/>
+    <app name="Synapse" cmd="synapse"/>
+    <app name="Terminal Emulator" cmd="exo-open --launch TerminalEmulator"/>
+    <app name="USB Stick Formatter" cmd="mintstick -m format"/>
+    <app name="VeraCrypt" cmd="veracrypt"/>
+    <app name="Winetricks" cmd="winetricks --gui"/>
+    <app name="Xcalc" cmd="xcalc"/>
+    <app name="Xman" cmd="xman"/>
+    <app name="Xpad" cmd="xpad"/>
+</menu>
+<separator/>
+<menu name="Xfce">
+    <app name="About" cmd="xfce4-about"/>
+    <app name="Help" cmd="xfhelp4"/>
+    <separator/>
+    <builtin name="Quit" cmd="quit"/>
+</menu>
+</xfdesktop-menu>

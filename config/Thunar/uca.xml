@@ -1,0 +1,152 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Terminal</name>
+	<unique-id>1432338489253765-10</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Ouvrir terminal ici</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>Terminal</icon>
+	<name>Text Root</name>
+	<unique-id>1515882972381786-2</unique-id>
+	<command>gksu mousepad %f</command>
+	<description>Text Root</description>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
+<action>
+	<icon>gksu-debian</icon>
+	<name>Administrator</name>
+	<unique-id>1432338480745833-8</unique-id>
+	<command>gksu thunar %f</command>
+	<description>Mode administrateur</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>filefind</icon>
+	<name>Search folders </name>
+	<unique-id>1432338476317854-7</unique-id>
+	<command>catfish --path=%f</command>
+	<description>Rechercher dans ce dossier</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>/.awn1/control.svg</icon>
+	<name>Voyager Box </name>
+	<unique-id>1432338469363999-6</unique-id>
+	<command>sh -c &quot;~/.scripts/BoxVoyager/BoxVoyager %f&quot;</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>/.awn1/control.svg</icon>
+	<name>Voyager Wall</name>
+	<unique-id>1432338463059943-5</unique-id>
+	<command>sh -c &quot;~/.scripts/Wall/Voyager_Themes %f&quot;</command>
+	<description></description>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon>/.awn1/jpg.svg</icon>
+	<name>Image Resize</name>
+	<unique-id>1432342934989862-2</unique-id>
+	<command>~/.scripts/Photos/Image-Resize %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>emblem-photos</icon>
+	<name>Image Cloud</name>
+	<unique-id>1511908431433123-7</unique-id>
+	<command>~/.scripts/Photos/envoie</command>
+	<description></description>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon>application-x-cd-image</icon>
+	<name>Verifier Hash</name>
+	<unique-id>1432343175192307-1</unique-id>
+	<command>~/.scripts/Vérifier-la-somme %f</command>
+	<description></description>
+	<patterns>*.iso</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>application-x-cd-image</icon>
+	<name>Graver image</name>
+	<unique-id>1432338679604092-4</unique-id>
+	<command>xfburn -i %f</command>
+	<description></description>
+	<patterns>*iso</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>audio-x-mp3-playlist</icon>
+	<name>Add to Playlist Moc</name>
+	<unique-id>1511908424681072-6</unique-id>
+	<command>mocp --append %F </command>
+	<description></description>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon>audio-x-mp3-playlist</icon>
+	<name>Moc Play</name>
+	<unique-id>1511908419979030-5</unique-id>
+	<command>mocp --playit %f </command>
+	<description></description>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon>kipi-dngconverter</icon>
+	<name>Png → jpg</name>
+	<unique-id>1517803688582469-1</unique-id>
+	<command>convert %f -quality 75 `basename %f .png`.jpg</command>
+	<description>convert png to jpg</description>
+	<patterns>*.png</patterns>
+	<image-files/>
+</action>
+<action>
+	<icon>kipi-expoblending</icon>
+	<name>Jpg gif xfc → png</name>
+	<unique-id>1519324661898720-1</unique-id>
+	<command>convert %f %f.png</command>
+	<description>Jpg Gif Xfc to Png</description>
+	<patterns>*</patterns>
+</action>
+<action>
+	<icon>printer-symbolic</icon>
+	<name>Print File</name>
+	<unique-id>1516695941771691-3</unique-id>
+	<command>sh -c &quot;~/.scripts/print/print.sh %f&quot;</command>
+	<description>Print text and images</description>
+	<patterns>*.doc;*.docx;*.xls;*.xlsx;*.odt;*.ods;*.jpg;*.jpeg;*.png;*.tiff;*.tif;*.gif;*.pdf;*.ps;*.txt</patterns>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+</action>
+<action>
+	<icon>gnome-mime-application-pdf</icon>
+	<name>Doc → pdf</name>
+	<unique-id>1519373150610044-1</unique-id>
+	<command> convert %f %n.pdf</command>
+	<description>Convert doc PDF</description>
+	<patterns>*.doc;*.docx;*.odt;*.odp;*.pps;*.ppt;*.xls;*.xlsx;*.ods;*.pptx</patterns>
+	<other-files/>
+</action>
+<action>
+	<icon>gnome-mime-application-pdf</icon>
+	<name>Png jpg → pdf</name>
+	<unique-id>1519324677368676-2</unique-id>
+	<command>convert *.jpg *.png pictures.pdf</command>
+	<description></description>
+	<patterns>*.png;*.jpg;*</patterns>
+</action>
+</actions>

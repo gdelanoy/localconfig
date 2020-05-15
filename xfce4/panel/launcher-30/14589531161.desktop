@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=1
+Comment=
+Exec=sh -c "~/.scripts/Wall/wall1 %f"
+Icon=/.awn1/virtuel1.svg
+Path=
+Terminal=false
+StartupNotify=false

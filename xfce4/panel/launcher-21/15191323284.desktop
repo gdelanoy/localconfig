@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Box
+Comment=
+Exec=sh -c "~/.scripts/BoxVoyager/BoxVoyager %f"
+Icon=/.awn1/box.svg
+Path=
+Terminal=false
+StartupNotify=false

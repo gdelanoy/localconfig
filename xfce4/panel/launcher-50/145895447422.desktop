@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Safe
+Comment=
+Exec=sh -c "~/.scripts/coffrefort/encfs.sh %f"
+Icon=/.awn1/cryptkeeper.svg
+Path=
+Terminal=false
+StartupNotify=false

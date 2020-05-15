@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Terminal
+Comment=
+Exec=sh -c "~/.scripts/Wall/wall6-terminal %f"
+Icon=/.awn1/terminal.svg
+Path=
+Terminal=false
+StartupNotify=false

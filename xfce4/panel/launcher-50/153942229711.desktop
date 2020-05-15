@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=YouTube DL GUI
+Exec=youtube-dl-gui
+Icon=youtube-dl-gui
+Categories=Network;
+Comment=youtube-dl GUI
+X-XFCE-Source=file:///usr/share/applications/youtube-dlg.desktop

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Moc
+Comment=
+Exec=sh -c "~/.scripts/Wall/wall7-moc %f"
+Icon=/.awn1/music.svg
+Path=
+Terminal=false
+StartupNotify=false

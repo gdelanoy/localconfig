@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pulse
+Comment=
+Exec=sh -c "~/.scripts/Wall/wall8-impulse %f"
+Icon=/.awn1/impulse.svg
+Path=
+Terminal=false
+StartupNotify=false

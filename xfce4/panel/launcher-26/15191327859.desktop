@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Private
+Comment=
+Exec=sh -c "~/.scripts/FirefoxSecu/ff.sh %f"
+Icon=/.awn1/private.svg
+Path=
+Terminal=false
+StartupNotify=false

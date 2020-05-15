@@ -1,0 +1,8 @@
+[Data]
+Name=SnowBird
+Thumbnail=/home/guillaume/.config/XfceThemeManager/meta/SnowBird.png
+GtkTheme=SnowBird
+Xfwm4Theme=SnowBird
+IconTheme=Faba-mono-dark
+CursorTheme=DMZ-Black
+

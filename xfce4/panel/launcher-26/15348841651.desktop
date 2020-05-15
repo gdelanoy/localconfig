@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=FocusWriter
+Name[fr]=FocusWriter
+GenericName=Fullscreen Word Processor
+GenericName[fr]=Traitement de texte plein écran
+Comment=Write without distractions
+Comment[fr]=Écrivez sans distractions
+Icon=focuswriter
+TryExec=focuswriter
+Exec=focuswriter %F
+Terminal=false
+MimeType=application/rtf;application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.text-flat-xml;application/vnd.openxmlformats-officedocument.wordprocessingml.document;text/plain;text/rtf;
+Categories=Qt;Office;WordProcessor;
+Keywords=fullscreen;editor;typewriter;keyclick;distraction;concentration;focused;monomaniacal;writing;
+X-XFCE-Source=file:///usr/share/applications/focuswriter.desktop

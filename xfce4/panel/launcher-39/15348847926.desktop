@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name[fr]=Corebird
+Name=Corebird
+GenericName[fr]=Client Twitter
+GenericName=Twitter Client
+Comment[fr]=Utiliser Twitter depuis une application de bureau classique
+Comment=Use Twitter from within a normal desktop application
+Keywords[fr]=twitter;
+Keywords=twitter;
+Exec=corebird
+Type=Application
+Icon[fr]=corebird
+Icon=corebird
+Categories=Network;GTK;
+DBusActivatable=true
+StartupWMClass=corebird
+X-XFCE-Source=file:///usr/share/applications/org.baedert.corebird.desktop

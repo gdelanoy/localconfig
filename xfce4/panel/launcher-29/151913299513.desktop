@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Net
+Comment=
+Exec=sh -c "~/.scripts/downup/down.sh %f"
+Icon=/.awn1/network.svg
+Path=
+Terminal=false
+StartupNotify=false

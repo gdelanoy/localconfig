@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=2
+Comment=
+Exec=sh -c "~/.scripts/Wall/wall2 %f"
+Icon=/.awn1/virtuel2.svg
+Path=
+Terminal=false
+StartupNotify=false

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Cumulonimbus
+Comment=A simple, beautiful podcast app.
+Exec="/opt/Cumulonimbus/cumulonimbus" %U
+Terminal=false
+Type=Application
+Icon=cumulonimbus
+Categories=Audio;
+X-XFCE-Source=file:///usr/share/applications/cumulonimbus.desktop

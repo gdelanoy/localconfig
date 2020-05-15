@@ -1,0 +1,39 @@
+2018-09-23 18:22:39,358 INFO - root - Initialising application
+2018-09-23 18:22:39,364 INFO - root - Initialise global hotkeys
+2018-09-23 18:22:39,364 INFO - config-manager - No configuration found - creating new one
+2018-09-23 18:22:39,367 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-09-23 18:22:39,368 INFO - config-manager - Persisting configuration
+2018-09-23 18:22:39,368 INFO - config-manager - Finished persisting configuration - no errors
+2018-09-23 18:22:39,368 INFO - service - Starting service
+2018-09-23 18:22:39,445 INFO - interface - XRecord interface thread starting
+2018-09-23 18:22:39,445 INFO - service - Service now marked as running
+2018-09-23 18:22:39,519 INFO - root - Displaying configuration window
+2018-09-23 18:22:39,769 INFO - root - Entering main()
+2018-09-23 18:23:07,025 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-09-23 18:23:07,025 INFO - config-manager - Persisting configuration
+2018-09-23 18:23:07,025 INFO - config-manager - Backing up existing config file
+2018-09-23 18:23:07,026 INFO - config-manager - Finished persisting configuration - no errors
+2018-10-09 23:04:44,737 INFO - root - Initialising application
+2018-10-09 23:04:44,744 INFO - root - Initialise global hotkeys
+2018-10-09 23:04:44,744 INFO - config-manager - Loading config from existing file: /home/guillaume/.config/autokey/autokey.json
+2018-10-09 23:04:44,749 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2018-10-09 23:04:44,750 INFO - config-manager - Successfully loaded configuration
+2018-10-09 23:04:44,750 INFO - service - Starting service
+2018-10-09 23:04:44,807 INFO - interface - XRecord interface thread starting
+2018-10-09 23:04:44,807 INFO - service - Service now marked as running
+2018-10-09 23:04:44,879 INFO - root - Entering main()
+2019-01-03 22:11:03,863 INFO - root - Initialising application
+2019-01-03 22:11:03,880 INFO - root - Initialise global hotkeys
+2019-01-03 22:11:03,880 INFO - config-manager - Loading config from existing file: /home/guillaume/.config/autokey/autokey.json
+2019-01-03 22:11:03,888 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-03 22:11:03,888 INFO - config-manager - Successfully loaded configuration
+2019-01-03 22:11:03,888 INFO - service - Starting service
+2019-01-03 22:11:03,974 INFO - interface - XRecord interface thread starting
+2019-01-03 22:11:03,974 INFO - service - Service now marked as running
+2019-01-03 22:11:04,026 INFO - root - Displaying configuration window
+2019-01-03 22:11:04,291 INFO - root - Entering main()
+2019-01-03 22:49:14,178 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-03 22:53:44,974 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-01-03 22:53:44,981 INFO - config-manager - Persisting configuration
+2019-01-03 22:53:44,982 INFO - config-manager - Backing up existing config file
+2019-01-03 22:53:44,983 INFO - config-manager - Finished persisting configuration - no errors

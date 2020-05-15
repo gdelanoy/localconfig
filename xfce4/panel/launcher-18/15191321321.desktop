@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Calendar
+Comment=
+Exec=sh -c "~/.scripts/Wall/wall14-calendar %f"
+Icon=/.awn1/ranger.svg
+Path=
+Terminal=false
+StartupNotify=false

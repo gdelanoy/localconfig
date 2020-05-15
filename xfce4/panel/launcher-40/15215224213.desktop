@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=wine C
+Comment=
+Exec=wine control
+Icon=/.awn1/winec.svg
+Path=
+Terminal=false
+StartupNotify=false

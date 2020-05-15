@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Wifi On/Off
+Comment=
+Exec=sh -c "~/.scripts/wifi/wifi-toggle.sh %f"
+Icon=/.awn1/plane.svg
+Path=
+Terminal=false
+StartupNotify=false

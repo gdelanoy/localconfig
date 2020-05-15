@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Voyager
+Comment=
+Exec=sh -c "~/.scripts/FirefoxSecu/ff1.sh %f"
+Icon=/.awn1/voyager.svg
+Path=
+Terminal=false
+StartupNotify=false

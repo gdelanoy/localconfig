@@ -1,0 +1,25 @@
+VirtualBox GUI VM Selector Window 5.2.34_Ubuntu r133883 linux.amd64 (Oct 23 2019 13:26:08) release log
+00:00:00.403195 Log opened 2020-05-05T14:45:35.321307000Z
+00:00:00.403198 Build Type: release
+00:00:00.403203 OS Product: Linux
+00:00:00.403205 OS Release: 4.15.0-99-generic
+00:00:00.403208 OS Version: #100-Ubuntu SMP Wed Apr 22 20:32:56 UTC 2020
+00:00:00.403243 DMI Product Name: MS-7B48
+00:00:00.403258 DMI Product Version: 1.0
+00:00:00.403334 Host RAM: 32108MB (31.3GB) total, 27015MB (26.3GB) available
+00:00:00.403341 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.403342 Process ID: 10134
+00:00:00.403343 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.403384 Qt version: 5.9.5
+00:00:00.455063 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.631145 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.658118 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 25x0 x 1255x1024
+00:00:00.660561 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 3460x0 x 1366x768
+00:00:00.662469 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 2 work area is actually resized to: 2560x0 x 900x1440
+00:00:00.664808 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 3 work area is actually resized to: 1280x0 x 1280x1024
+00:00:14.940522 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:15.098656 2D support test succeeded
+00:00:15.176621 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:28.743485 GUI: UIMediumEnumerator: Medium with key={164cafee-69e3-454b-9c73-22ff7278efc9} created
+00:00:31.495082 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:25:00.507045 GUI: UIMediumEnumerator: Medium-enumeration finished!

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Backup
+Comment=
+Exec=deja-dup-preferences
+Icon=/.awn1/backup.svg
+Path=
+Terminal=false
+StartupNotify=false

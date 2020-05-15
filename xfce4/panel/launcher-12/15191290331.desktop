@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Déconnexion
+Comment=Fermer la session du bureau Xfce
+Exec=xfce4-session-logout
+Icon=/.awn1/face.svg
+Path=
+Terminal=false
+StartupNotify=false

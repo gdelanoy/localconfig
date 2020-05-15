@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Infos
+Comment=
+Exec=sh -c "~/.scripts/Wall/wall13-infos %f"
+Icon=/.awn1/diagnostic.svg
+Path=
+Terminal=false
+StartupNotify=false

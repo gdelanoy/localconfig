@@ -1,0 +1,28 @@
+[global_config]
+  inactive_color_offset = 0.844155844156
+  sticky = True
+  tab_position = bottom
+  title_font = Sans 8
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#6cc3be"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.87
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    use_system_font = False
