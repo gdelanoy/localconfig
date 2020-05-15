@@ -1,0 +1,53 @@
+# — Conky settings — #
+background no
+update_interval 1
+
+double_buffer yes
+no_buffers yes
+
+text_buffer_size 2048
+imlib_cache_size 0
+
+# — Window specifications — #
+
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager
+
+minimum_size 300 #300
+
+# Emplacement top_right ou tr, middle_right ou mr, bottom_right ou br. Donc: tl, tr, tm, bl, br, bm, ml, mr.
+alignment tr
+
+# — Placement — #
+gap_x 26
+gap_y 26
+
+# — Graphics settings — #
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+# — Text settings — #
+use_xft yes
+xftfont droid sans:size=8.5
+xftalpha 1
+
+uppercase no
+
+default_color 696969
+color1 5A5A5A
+color2 404040
+
+TEXT
+${if_running clementine}
+${image ~/.conky/conky-cover/conky9/pochette.png}${image /tmp/cover -p 14,14 -s 50x50 -f 6 }
+${execi 10 conkyClementine -d CA > /dev/null}
+${voffset -25}${goto 80}${font droid sans:size=7}${color2}Title   ${color1}${exec conkyClementine --datatype=TI --maxlength=32}
+${voffset 2}${goto 80}${font droid sans:size=7}${color2}Artist   ${color1}${exec conkyClementine --datatype=AR --maxlength=32}
+${voffset 2}${goto 80}${color2}Album   ${color1}${exec conkyClementine --datatype=AL --maxlength=32}
+${voffset -8}${goto 288}${font droid sans mono:size=7}${color3}${color1}${exec conkyClementine --datatype=TN --maxlength=32}
+${voffset 0}${goto 19}${color1}${execibar 2 conkyClementine --datatype=PP}
+${voffset 4}${goto 228}${font droid sans mono:size=7}${color1}${exec conkyClementine --datatype=PT --maxlength=32} / ${exec conkyClementine --datatype=LE --maxlength=32}
+$else${voffset 100}${goto 200}${color #696969}${alignc}${font sans:size=6:bold}No Activity${font}$endif

@@ -1,0 +1,305 @@
+# Agualemon v1.0
+# (prepared for pekwm version 1.6)
+# Ported from the XFWM theme, Agualemon
+# Last modification date: 05/16/08
+
+# set up the font
+$FONT = "Verdana"
+
+PDecor {
+Decor = "Default" {
+	Title {
+		Height = "20"
+		Pad = "0 0 0 0"
+		Focused = "Image title.png"
+		UnFocused = "Image title.png"
+		Tab {
+			Focused = "Image title.png"
+			UnFocused = "Image title.png"
+			FocusedSelected = "Image title.png"
+			UnFocusedSelected = "Image title.png"
+		}
+		FontColor {
+			Focused = "black"
+			UnFocused = "black"
+			FocusedSelected = "black"
+			UnFocusedSelected = "black"
+
+		}
+		Font {
+			Focused = "$FONT#Center#XFT"
+			UnFocused = "$FONT#Center#XFT"
+			FocusedSelected = "$FONT#Center#XFT"
+			UnFocusedSelected = "$FONT#Center#XFT"
+		}
+		Separator {
+			Focused = "Solid black 1x1"
+			UnFocused = "Solid black 1x1"
+		}
+		Buttons {
+			Right {
+				Focused = "Image button-red.png"
+				UnFocused = "Image button-inactive.png"
+				Pressed = "Image button-pressed.png"
+				Button = "1" { Actions = "Close" }
+			}
+			Right {
+				Focused = "Image button-green.png"
+				UnFocused = "Image button-inactive.png"
+				Pressed = "Image button-pressed.png"
+				Button = "1" { Actions = "Toggle Maximized 1 1" }
+			}
+			Right {
+				Focused = "Image button-orange.png"
+				UnFocused = "Image button-inactive.png"
+				Pressed = "Image button-pressed.png"
+				Button = "1" { Actions = "Toggle Iconified" }
+			}
+			Left {
+				Focused = "Image button-blue.png"
+				UnFocused = "Image button-inactive.png"
+				Pressed = "Image button-pressed.png"
+				Button = "1" { Actions = "ShowMenu window" }
+			}
+		}
+		Border {
+			Focused {
+				TopLeft = "Image top-left.png"
+				Top = "Image top.png"
+				TopRight = "Image top-right.png"
+				Left = "Image left.png"
+				Right = "Image right.png"
+				BottomLeft = "Image bottom-left.png"
+				Bottom = "Image bottom.png"
+				BottomRight = "Image bottom-right.png"
+			}
+			UnFocused {
+				TopLeft = "Image top-left.png"
+				Top = "Image top.png"
+				TopRight = "Image top-right.png"
+				Left = "Image left.png"
+				Right = "Image right.png"
+				BottomLeft = "Image bottom-left.png"
+				Bottom = "Image bottom.png"
+				BottomRight = "Image bottom-right.png"
+			}
+		}
+	}	
+}
+Decor = "Menu" {
+	Title {
+		Height = "20"
+		Pad = "0 0 0 0"
+		Focused = "Image title.png"
+		UnFocused = "Image title.png"
+		Tab {
+			Focused = "Image title.png"
+			UnFocused = "Image title.png"
+			FocusedSelected = "Image title.png"
+			UnFocusedSelected = "Image title.png"
+		}
+		FontColor {
+			Focused = "black"
+			UnFocused = "black"
+			FocusedSelected = "black"
+			UnFocusedSelected = "black"
+
+		}
+		Font {
+			Focused = "$FONT#Center#XFT"
+			UnFocused = "$FONT#Center#XFT"
+			FocusedSelected = "$FONT#Center#XFT"
+			UnFocusedSelected = "$FONT#Center#XFT"
+
+		}
+		Separator {
+			Focused = "Solid black 1x1"
+			UnFocused = "Solid black 1x1"
+		}
+		Border {
+			Focused {
+				TopLeft = "Image top-left.png"
+				Top = "Image top.png"
+				TopRight = "Image top-right.png"
+				Left = "Image left.png"
+				Right = "Image right.png"
+				BottomLeft = "Image bottom-left.png"
+				Bottom = "Image bottom.png"
+				BottomRight = "Image bottom-right.png"
+			}
+			UnFocused {
+				TopLeft = "Image top-left.png"
+				Top = "Image top.png"
+				TopRight = "Image top-right.png"
+				Left = "Image left.png"
+				Right = "Image right.png"
+				BottomLeft = "Image bottom-left.png"
+				Bottom = "Image bottom.png"
+				BottomRight = "Image bottom-right.png"
+			}
+		}
+	}
+}
+Decor = "CmdDialog" {
+	Title {
+		Height = "20"
+		Pad = "0 0 0 0"
+		Focused = "Image title.png"
+		UnFocused = "Image title.png"
+		Tab {
+			Focused = "Image title.png"
+			UnFocused = "Image title.png"
+			FocusedSelected = "Image title.png"
+			UnFocusedSelected = "Image title.png"
+		}
+		FontColor {
+			Focused = "black"
+			UnFocused = "black"
+			FocusedSelected = "black"
+			UnFocusedSelected = "black"
+
+		}
+		Font {
+			Focused = "$FONT#Center#XFT"
+			UnFocused = "$FONT#Center#XFT"
+			FocusedSelected = "$FONT#Center#XFT"
+			UnFocusedSelected = "$FONT#Center#XFT"
+
+		}
+		Separator {
+			Focused = "Solid black 1x1"
+			UnFocused = "Solid black 1x1"
+		}
+		Border {
+			Focused {
+				TopLeft = "Image top-left.png"
+				Top = "Image top.png"
+				TopRight = "Image top-right.png"
+				Left = "Image left.png"
+				Right = "Image right.png"
+				BottomLeft = "Image bottom-left.png"
+				Bottom = "Image bottom.png"
+				BottomRight = "Image bottom-right.png"
+			}
+			UnFocused {
+				TopLeft = "Image top-left.png"
+				Top = "Image top.png"
+				TopRight = "Image top-right.png"
+				Left = "Image left.png"
+				Right = "Image right.png"
+				BottomLeft = "Image bottom-left.png"
+				Bottom = "Image bottom.png"
+				BottomRight = "Image bottom-right.png"
+			}
+		}
+		Buttons {
+			Right {
+				Focused = "Image button-red.png"
+				UnFocused = "Image button-inactive.png"
+				Pressed = "Image button-pressed.png"
+				Button = "1" { Actions = "Close" }
+			}
+		}
+	}
+}
+Decor = "StatusWindow" {
+	Title {
+		Height = "0"
+		Pad = "0 0 0 0"
+		Focused = "EMPTY"
+		UnFocused = "EMPTY"
+		Tab {
+			Focused = "EMPTY"
+			UnFocused = "EMPTY"
+			FocusedSelected = "EMPTY"
+			UnFocusedSelected = "EMPTY"
+		}
+		FontColor {
+			Focused = "EMPTY"
+			UnFocused = "EMPTY"
+			FocusedSelected = "EMPTY"
+			UnFocusedSelected = "EMPTY"
+
+		}
+		Font {
+			Focused = "EMPTY"
+			UnFocused = "EMPTY"
+			FocusedSelected = "EMPTY"
+			UnFocusedSelected = "EMPTY"
+
+		}
+		Separator {
+			Focused = "EMPTY"
+			UnFocused = "EMPTY"
+		}
+		Border {
+			Focused {
+				TopLeft = "Solid 1x1 black"
+				Top = "Solid 1x1 black"
+				TopRight = "Solid 1x1 black"
+				Left = "Solid 1x1 black"
+				Right = "Solid 1x1 black"
+				BottomLeft = "Solid 1x1 black"
+				Bottom = "Solid 1x1 black"
+				BottomRight = "Solid 1x1 black"
+			}
+			UnFocused {
+				TopLeft = "Solid 1x1 black"
+				Top = "Solid 1x1 black"
+				TopRight = "Solid 1x1 black"
+				Left = "Solid 1x1 black"
+				Right = "Solid 1x1 black"
+				BottomLeft = "Solid 1x1 black"
+				Bottom = "Solid 1x1 black"
+				BottomRight = "Solid 1x1 black"
+			}
+		}
+	}
+}
+}
+
+Harbour {
+	Texture = "EMPTY"
+}
+
+Menu {
+	Pad = "3 3 3 3"
+	Focused {
+		Font = "$FONT#XFT"
+		Background = "Solid white 1x1"
+		Item = "Solid white 1x1"
+		Text = "black"
+		Separator = "Solid black 0x2"
+		Arrow = "Solid black 3x3"
+	}
+	UnFocused {
+		Font = "$FONT#XFT"
+		Background = "Solid white 1x1"
+		Item = "Solid white 1x1"
+		Text = "black"
+		Separator = "Solid black 0x2"
+		Arrow = "Solid black 3x3"	
+	}
+	Selected {
+		Font = "$FONT#XFT"
+		Background = "Solid white 1x1"
+		Item = "Solid gray 1x1"
+		Text = "black"
+		Separator = "Solid black 0x2"
+		Arrow = "Solid black 3x3"
+	}
+}
+
+CmdDialog {
+	Font = "$FONT#XFT"
+	Texture = "Solid white 1x1"
+	Text = "black"
+	Pad = "0 0 0 0"
+}
+
+Status {
+	Font = "$FONT#XFT"
+	Texture = "Solid gray 1x1"
+	Text = "black"
+	Pad = "0 0 0 0"
+}

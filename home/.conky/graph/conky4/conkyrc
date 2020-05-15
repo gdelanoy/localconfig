@@ -1,0 +1,94 @@
+# Use Xft?
+use_xft yes
+xftfont Trebuchet MS:size=8
+xftalpha 0.8
+text_buffer_size 2048
+background no
+# Update interval in seconds
+update_interval 1
+xftalpha 0.8
+own_window_argb_visual yes
+# This is the number of times Conky will update before quitting.
+# Set to zero to run forever.
+total_run_times 0
+
+# Create own window instead of using desktop (required in nautilus)
+own_window yes
+own_window_transparent yes
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Minimum size of text area
+minimum_size 180 0
+
+# Draw shades?
+draw_shades no
+
+# Draw outlines?
+draw_outline no
+
+# Draw borders around text
+draw_borders no
+
+# Stippled borders?
+stippled_borders 0
+
+# border width
+border_width 1
+
+# Default colors and also border colors
+# default_color white
+# own_window_colour white
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# set to yes if you want all text to be in uppercase
+uppercase no
+
+# number of cpu samples to average
+# set to 1 to disable averaging
+cpu_avg_samples 2
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 2
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+# Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer none
+
+draw_graph_borders no
+
+alignment bl
+gap_x 100
+gap_y 130
+minimum_size 280 150
+maximum_width 350
+
+default_color E4E4E4
+color1 E4E4E4
+color2 E4E4E4
+color3 525555
+color4 9ea19d
+color5 DADCE1
+
+TEXT
+
+
+
+
+
+
+
+${GOTO 8}${if_existing /proc/net/route wlp2s0}${font Ubuntu:bold:size=10}${color2}${font}${color}${else}${if_existing /proc/net/route enp3s0}${font Ubuntu:bold:size=10}${color2}Ethernet${font}${color}${else}${font Ubuntu:bold:size=10}${color2}Deconnect${font}${color}${endif}${endif}
+${GOTO 8}${color2}Upspeed :${GOTO 133}${if_existing /proc/net/route wlp2s0}${upspeedgraph wlp2s0 10,75 13A790 13A790}${GOTO 218}${upspeedf wlp2s0}${else}${if_existing /proc/net/route enp3s0}${upspeedgraph enp3s0 10,75 13A790 13A790}${GOTO 218}${upspeedf enp3s0}${endif}${endif}
+${GOTO 8}Downspeed :${GOTO 133}${if_existing /proc/net/route wlp2s0}${downspeedgraph wlp2s0 10,75 13A790 13A790}${GOTO 218}${downspeedf wlp2s0}${else}${if_existing /proc/net/route enp3s0}${downspeedgraph enp3s0 10,75 13A790 13A790}${GOTO 218}${downspeedf enp3s0}${endif}${endif}
+${GOTO 8}Uploaded :${GOTO 133}${if_existing /proc/net/route wlp2s0}${totalup wlp2s0}${else}${if_existing /proc/net/route enp3s0}${totalup enp3s0}${endif}${endif}
+${GOTO 8}Downloaded :${GOTO 133}${if_existing /proc/net/route wlp2s0}${totaldown wlp2s0}${else}${if_existing /proc/net/route enp3s0}${totaldown enp3s0}${endif}${endif}
+${GOTO 8}Temp °C :${GOTO 133}${hwmon 0 temp 1}

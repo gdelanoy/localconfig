@@ -1,0 +1,86 @@
+#==============================================================================
+#                                  conkyrc_3
+#
+#  author  : CAYMUS
+#  version : v20120420-02
+#  license : Distributed under the terms of GNU GPL version 2 or later
+#
+#==============================================================================
+
+background no
+update_interval 1
+
+cpu_avg_samples 2
+net_avg_samples 2
+temperature_unit celsius
+
+double_buffer yes
+no_buffers yes
+text_buffer_size 2048
+
+alignment top_middle
+gap_x 10
+gap_y 30
+minimum_size 800 30
+#maximum_width 190
+own_window yes
+own_window_type normal
+own_window_transparent yes
+#own_window_argb_visual
+own_window_argb_visual yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+border_inner_margin 0
+border_outer_margin 0
+alignment top_middle
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+override_utf8_locale yes
+use_xft yes
+xftfont caviar dreams:size=8
+xftalpha 0.5
+uppercase no
+
+default_color 666666
+color1 888888
+color2 AAAAAA
+color3 DDDDDD
+color4 CC3333
+
+lua_load ~/.conky/conky-extra/conky12/conky_3.lua
+lua_draw_hook_pre main_box
+lua_draw_hook_post main_bars
+
+TEXT
+${voffset -5}
+${goto 5}${font caviar dreams:size=12,weight:bold}${color}CPU
+${voffset -45}
+${goto 50}${font caviar dreams:size=7,weight:normal}${color}core 1:${goto 90}${cpu cpu1}%
+${goto 50}${font caviar dreams:size=7,weight:normal}${color}core 2:${goto 90}${cpu cpu2}%
+
+${voffset -49}
+${goto 150}${font caviar dreams:size=12,weight:bold}${color}MEM
+${voffset -43}
+${goto 200}${font caviar dreams:size=7,weight:normal}${color}RAM ${goto 235}$mem
+${goto 200}${font caviar dreams:size=7,weight:normal}${color}SWAP ${goto 235}$swap
+
+${voffset -49}
+${goto 315}${font caviar dreams:size=12,weight:bold}${color}DISKS
+${voffset -43}
+${goto 375}${font caviar dreams:size=7,weight:normal}${color}/home${goto 415}${fs_used /home}
+${goto 375}${font caviar dreams:size=7,weight:normal}${color}/${goto 415}${fs_used /}
+
+${voffset -49}
+${goto 600}${font caviar dreams:size=12,weight:bold}${color}NET
+${voffset -43}
+${goto 650}${color1}${font caviar dreams:size=7,weight:bold}${if_up enp2s0}enp2s0 ${addr enp2s0}
+${goto 650}${color}${font caviar dreams:size=7,weight:normal}Down: ${downspeed enp2s0}
+${goto 650}${color}${font caviar dreams:size=7,weight:normal}Up: ${upspeed enp2s0}
+
+${goto 650}${color1}${font caviar dreams:size=7,weight:bold}${else}${if_up wlp1s0}wifi ${addr wlp1s0}
+${goto 650}${color}${font caviar dreams:size=7,weight:normal}AP: ${wireless_essid wlp1s0} ${goto 730}Speed: ${wireless_bitrate wlp1s0}
+${goto 650}Mode: ${wireless_mode wlp1s0} ${goto 730}Quality: ${wireless_link_qual wlp1s0}%${endif}${endif}
+

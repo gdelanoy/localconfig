@@ -1,0 +1,104 @@
+#==============================================================================
+#                                  Conky Covers Clementine
+#
+#  author  : rodofr / Voyager
+#  version : v0.1
+#  license : Distributed under the terms of GNU GPL version 2 or later
+#
+#==============================================================================
+# Utiliser sa propre fenetre ?
+own_window yes
+
+#pour que conky tourne en arrière plan background no pour les tests
+background no
+
+# Type de fenetre : normal, desktop, dock ou override
+#own_window_type normal
+own_window_type override
+
+# Pseudo transparence (yes/no) et options: 
+own_window_transparent yes
+#own_window_hints undecorated,below,skip_taskbar,skip_pager
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# vrai transparence 
+#own_window_argb_visual yes
+
+# Utiliser Xft (polices lissées etc)
+use_xft yes
+
+# Police a utiliser : use_xft doit etre a "yes"
+xftfont droid sans:size=8
+xftalpha 0.8
+
+# Taux de raffraichissement de la fenetre (en secondes)
+update_interval 1
+
+# Nombres de rafraichissement avant fermeture : 0 pour infini
+total_run_times 0
+
+# Emplacement top_right ou tr, middle_right ou mr, bottom_right ou br. Donc: tl, tr, tm, bl, br, bm, ml, mr.
+alignment bl
+
+# Largeur maximum
+# maximum_width 300
+# Taille minimum de la fenetre, largeur puis hauteur
+minimum_size 225 0
+pad_percents 3
+
+# Ecart avec le bord: x= gauche/droit y= haut/bas
+gap_x 5
+gap_y 4
+
+# Afficher les ombres?
+draw_shades no
+
+# Afficher des contours ?
+draw_outline no
+
+# Contours autour des blocs de texte?
+draw_borders no
+
+# Contours en trait-tillés, longueur d'un trait en pixels
+stippled_borders 0
+
+# Largeur du contour
+border_width 1
+draw_graph_borders no
+
+# Couleurs par defaut
+default_color 696969
+color1 404040
+color2 333333
+
+# Pour eviter le clignotement
+double_buffer yes
+
+# Augmente la taille du buffer de 128k a 1024k
+text_buffer_size 2048
+
+# Soustraire les mémoires tampons de la mémoire utiliser ?
+no_buffers yes
+
+# Tout le texte en majuscule ?
+uppercase no
+
+# Nombre d'echantillons a utiliser pour calculer la moyenne d'utilisation
+cpu_avg_samples 4
+net_avg_samples 2
+
+# Pour affichier les caracteres speciaux
+override_utf8_locale yes
+
+# Fonctionne uniquement avec la police Monospace
+use_spacer right
+
+TEXT
+${if_running clementine}
+${image ~/.conky/conky-cover/conky6/b.png}${image /tmp/cover -p 5,6 -s 74x74 -f 6 }
+${execi 10 conkyClementine -d CA > /dev/null}
+${voffset 50}${goto 13}${font Ubuntu:size=7,weight:bold}${color2}Title   ${color1}${exec conkyClementine --datatype=TI --maxlength=32}
+${voffset 0}${goto 13}${font Ubuntu:size=7,weight:bold}${color2}Artist   ${color1}${exec conkyClementine --datatype=AR --maxlength=32}
+${voffset 0}${goto 13}${font Ubuntu:size=7,weight:bold}${color2}Album   ${color1}${exec conkyClementine --datatype=AL --maxlength=32}
+${voffset 0}${goto 13}${font Ubuntu:size=7,weight:bold}${color2}Piste  ${color1}${exec conkyClementine --datatype=TN --maxlength=32}${voffset 0}${goto 62}${font Ubuntu:size=7,weight:bold}${color1}${exec conkyClementine --datatype=PT --maxlength=32} . ${exec conkyClementine --datatype=LE --maxlength=32}
+$else${voffset -10}${color #696969}${alignc}${font Ubuntu:size=6,weight:normal}No Activity${font}$endif

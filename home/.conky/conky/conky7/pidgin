@@ -1,0 +1,51 @@
+background no
+use_xft yes
+text_buffer_size 2048
+# Xft font when Xft is enabled
+xftfont Terminus:size=9
+# Text alpha when using Xft
+xftalpha 0.8
+update_interval 1
+total_run_times 0
+own_window yes
+double_buffer yes
+minimum_size 300 5
+maximum_width 300
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+stippled_borders 0
+border_width 0
+default_color white
+default_shade_color black
+default_outline_color white
+own_window yes
+own_window_transparent yes
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+alignment top_left
+gap_x 0
+gap_y 30
+no_buffers yes
+uppercase no
+cpu_avg_samples 2
+net_avg_samples 2
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+use_spacer right
+# colours
+color1 white
+# light blue
+color2 6892C6
+# orange
+color3 E77320
+# green
+color4 78BF39
+# red
+color5 CC0000
+# cyan
+color6 3FBFBE
+
+TEXT
+${if_running pidgin}${voffset 5}${color6}${font}${execi 30 conkyPidgin}${endif} 

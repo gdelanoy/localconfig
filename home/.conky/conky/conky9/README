@@ -1,0 +1,37 @@
+Name: Conky Metro Clock by ~satya164
+Page: satya164.deviantart.com
+Blog: funsurf-blog.blogspot.com
+
+Conky Metro Clock is a minimalist conky configuration which resembles the Metro Style clock appearing in the Windows 8 screensaver. The font used is "Ubuntu Light".
+
+Nothing fancy. Just shows date and time
+
+---
+
+How To install:
+
+1. First install conky if you don't have it.
+
+# To install conky in Ubuntu, run the following in the terminal,
+
+sudo apt-get install conky
+
+# To install conky in Fedora, open a terminal and run,
+
+yum install conky
+
+2. Extract the files .conkyrc and .conky_start.sh to your home folder and make .conky_start.sh executable.
+
+3. Add ~/.conky_start.sh to your Startup Applications.
+
+4. Enjoy!
+
+---
+
+Changelog:
+
+31/10/2010 - Added Gnome Shell Support
+
+---
+
+License: GPL

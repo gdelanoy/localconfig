@@ -1,0 +1,91 @@
+# Use Xft?
+use_xft yes
+xftfont Trebuchet MS:size=8
+xftalpha 0.8
+text_buffer_size 2048
+background no
+# Update interval in seconds
+update_interval 1
+xftalpha 0.8
+own_window_argb_visual yes
+# This is the number of times Conky will update before quitting.
+# Set to zero to run forever.
+total_run_times 0
+
+# Create own window instead of using desktop (required in nautilus)
+own_window yes
+own_window_transparent yes
+own_window_type normal
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+# Use double buffering (reduces flicker, may not work for everyone)
+double_buffer yes
+
+# Minimum size of text area
+minimum_size 180 0
+
+# Draw shades?
+draw_shades no
+
+# Draw outlines?
+draw_outline no
+
+# Draw borders around text
+draw_borders no
+
+# Stippled borders?
+stippled_borders 0
+
+# border width
+border_width 1
+
+# Default colors and also border colors
+# default_color white
+# own_window_colour white
+
+# Subtract file system buffers from used memory?
+no_buffers yes
+
+# set to yes if you want all text to be in uppercase
+uppercase no
+
+# number of cpu samples to average
+# set to 1 to disable averaging
+cpu_avg_samples 2
+
+# number of net samples to average
+# set to 1 to disable averaging
+net_avg_samples 2
+
+# Force UTF8? note that UTF8 support required XFT
+override_utf8_locale yes
+
+# Add spaces to keep things from moving about?  This only affects certain objects.
+use_spacer none
+
+draw_graph_borders no
+
+alignment bl
+gap_x 100
+gap_y 180
+minimum_size 280 150
+maximum_width 350
+
+default_color 47B2FF
+color1 686969
+color2 696C6B
+color3 525555
+color4 9ea19d
+color5 DADCE1
+
+TEXT
+
+
+
+
+
+
+
+${voffset 8}${cpugraph cpu0 20,84 C2C2C2 C2C2C2}${if_existing /proc/net/route wlp2s0}${downspeedgraph wlp2s0 20,86 C2C2C2 C2C2C2}${upspeedgraph wlp2s0 20,87 C2C2C2 C2C2C2}${if_existing /proc/net/route eth0}${downspeedgraph eth0 20,86 C2C2C2 C2C2C2}${upspeedgraph eth0 20,87 C2C2C2 C2C2C2}${voffset -8}
+${voffset 8}${color2}cpu${offset 6}${color2}${hwmon 0 temp 1} °C${offset 33}${color2}down ${if_existing /proc/net/route wlp2s0}${downspeed wlp2s0}${if_existing /proc/net/route eth0}${downspeed eth0}${offset 12}${color2}up ${if_existing /proc/net/route wlp2s0}${upspeed wlp2s0}${if_existing /proc/net/route eth0}${upspeed eth0}
+${voffset 8}${color2}${exec lsb_release -d | cut -c21-31}

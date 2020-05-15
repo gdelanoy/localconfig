@@ -1,0 +1,53 @@
+alignment top_right
+background yes
+cpu_avg_samples 2
+default_color 000000		
+default_outline_color 000000 	
+default_shade_color 000000	
+double_buffer yes
+draw_borders no
+draw_graph_borders no
+draw_outline no
+draw_shades no
+gap_x -20
+gap_y -15
+max_specials 1024
+max_user_text 10000
+maximum_width 200
+minimum_size 300 400
+net_avg_samples 2
+no_buffers yes
+override_utf8_locale yes
+own_window yes
+own_window_colour 000000	
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent yes
+own_window_type normal
+pad_percents 2			
+short_units yes			
+stippled_borders 3
+text_buffer_size 8000
+total_run_times 0
+update_interval 3.0
+uppercase no
+use_spacer right
+use_xft yes
+xftalpha 1
+lua_load ~/.conky/conky-extra/conky14/lua/bar.lua
+lua_draw_hook_pre main_bars
+TEXT
+${image ~/.conky/conky-extra/conky14/rnc/rnc.png   170x45  -p   0,60}
+${image ~/.conky/conky-extra/conky14/rnc/rnm.png  170x45 -p 0,110}  
+${image ~/.conky/conky-extra/conky14/rnc/rnh.png  170x45 -p 0,160} 
+${image ~/.conky/conky-extra/conky14/rnc/rnu.png  170x45 -p 0,210} 
+${image ~/.conky/conky-extra/conky14/rnc/rnd.png  150x65 -p 0,260}
+${image ~/.conky/conky-extra/conky14/rnc/rnt.png  150x65 -p 12,308}
+${font  Arvo-Regular:size=9}${color #ffffff}         
+${voffset -58}${offset 128}$CPU%    
+${voffset 34}${offset 128}$memperc%
+${voffset 35}${offset 128}${fs_free_perc /root}%     
+${voffset 34}${offset 120}${upspeed wlp1s0}
+${voffset 34}${offset 120}${downspeed wlp1s0}
+${voffset 34}${offset 36}${font Arvo-Regular:size=8}${color #ffffff}${time %d/%m/%y}               ${color #CB0F0F}${texeci 180 python ~/.conky/conky-extra/conky14/lua/gmail.py}
+${voffset 7}${offset 68}${font Arvo-Regular:size=11}${color #CB0F0F}${time %I}${color #FFFFFF}:${color #CB0F0F}${time %M}                  
+

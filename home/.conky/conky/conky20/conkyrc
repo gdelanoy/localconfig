@@ -1,0 +1,67 @@
+#!/usr/bin/conky -d -c
+##	.conkyrc configuration
+alignment top_left
+background yes
+cpu_avg_samples 2
+default_color ffffff	# szary 5f5f5f
+default_outline_color 000000 	# Black
+default_shade_color 000000	# Black
+double_buffer yes
+draw_borders no
+draw_graph_borders no
+draw_outline no
+draw_shades no
+gap_x 30
+gap_y 25
+max_specials 1024
+max_user_text 10000
+maximum_width 160
+minimum_size 175
+net_avg_samples 2
+no_buffers yes
+override_utf8_locale yes
+own_window yes
+own_window_colour 000000	# Black
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_transparent yes
+own_window_type normal
+pad_percents 2			
+short_units yes
+stippled_borders 3
+text_buffer_size 8000
+total_run_times 0
+update_interval 1.0
+uppercase no
+use_spacer right
+use_xft yes
+xftalpha 1
+xftfont Freesans:pixelsize=9
+default_color 696C6B
+
+
+TEXT
+#${image ~/.conky/conky/conky20/mail1.png -p 3,50}
+${image ~/.conky/conky/conky20/2.png -p 3,75}
+${image ~/.conky/conky/conky20/3.png -p 3,135}
+${image ~/.conky/conky/conky20/3.png -p 3,195} 
+${font helvetica:pixelsize=11}
+#	${offset 45}GMAIL Inbox
+#	${offset 45}You got ${texeci 180 python ~/.conky/conky/conky20/gmail.py} mail!
+
+
+	${offset 45}System Space ${fs_size /} 
+	${offset 45}Used: ${fs_used /}
+#	${offset 42}Free : 
+
+	
+	${offset 45}Free Space 
+	${offset 45} ${fs_free /}
+#	${offset 42}Free : 
+
+
+	${offset 45}Free Space
+	${offset 45}  ${fs_free_perc /}%
+#	${offset 42}Free : 
+
+
+ 	
